@@ -1,0 +1,108 @@
+No,Application_domain,DK_type,Know_Conv,DK_injection,Features ,ML_model,Use_case,Metrics,Environment,Data_type,Article_Name
+9,diagnosis,informal,"DE,HD",FE,"\cite{ranawat2021fault},time and frequency domain","SVM,ANN.",rotating machine(accelerometer data),accuracy,"Real-time	",,"Fault Diagnosis in Centrifugal Pump using Support Vector
+Machine and Artificial Neural Network"
+10,diagonosis,semiformal,"DE,HD",PP,\cite{rengasamy2020deep},"Bi-LSTM,DNN,CNN1D,Bi-GRU",air pressure system failure data form Scania trucks,"RMSE,asymmetric scoring,false positive and false negative",Real-time,sensor data ,"Deep Learning with Dynamically Weighted Loss
+Function for Sensor-Based Prognostics and
+Health Management"
+10,predictive,informal,"DE,HD",PP,\cite{rengasamy2020deep},"Bi-LSTM,DNN,CNN1D,Bi-GRU",NASA aero-propulsion system data,"RMSE,asymmetric scoring,false positive and false negative",Real-time,sensor data ,"Deep Learning with Dynamically Weighted Loss
+Function for Sensor-Based Prognostics and
+Health Management"
+11,diagnosis,semiformal,"ST/K,DE",PP,"\cite{altobi2019fault},frequency domain feature","MLP-BP,SVM,MLP-GA.",rotating machine,accuracy,Real-time,sensor  data,"Fault diagnosis of a centrifugal pump using MLP-GABP and SVM
+with CWT"
+12,prescriptive,semiformal,"LR,ST/K","PP,DM",\cite{yu2019global},"DPCA.,Kmeans",Rotating equipment functional failure,"statistic value(minimum,maximum, average)",Real-time,sensor data,"A Global Manufacturing Big Data Ecosystem for
+Fault Detection in Predictive Maintenance"
+13,predictive,semiformal,"ST/K,DE","PP,FE",\cite{scalabrini2019prediction},"RT,RF,SVM,MLP.",motor(cooling fan),RMSE,Experimental( generation of artificial vibration data),accelerometer data,"Prediction of Motor Failure Time Using An Artificial
+Neural Network"
+14,predictive,informal,ST/K,"PP,FE",\cite{akuruyejo2017data},SVR.,Nasa bearing data,,Real-time,sensor data,"A Data-Driven Approach Based Health Indicator for
+Remaining Useful Life Estimation of Bearings"
+15,diagnosis,informal,"HD,LR,ST/K","PP,FE",vamsi2020machine,IF.,IBRL dataset,"precision,AUC",Real-time,sensor data,Machine Learning Based Hybrid Model for Fault Detection in Wireless Sensors Data
+17,predictive,semiformal,"PR,DE,HD","PP,FE","ali2015accurate,time domain feature(rms,kurtosis,rmsee-entrophy estimator)",NN SFAM.,bearing,accracy,Real-time,vibration data,"Accurate bearing remaining useful life prediction based on
+Weibull distribution and artificial neural network"
+18,descriptive,semiformal,ST/K,PP,german2018signal,-1,malfunctions of manufacturing equipment,,experimental,sensor data,Signal processing methods in fault detection in manufacturing systems
+20,descriptive,informal,"ST/K,HD",FE,zhu2020methodology,"TSAK-SVM.,MLP",semiconductor,accuracy,,"open-source (for model validation)+ proprietary datasets 	",Methodology for Important Sensor Screening for Fault Detection and Classification in Semiconductor Manufacturing
+21,descriptive,informal,ST/K,PP,gao2018multi,-1,hydralic pump (axial piston pumps),accuracy,"experimental	","pressure, vibration, and acoustic signals",A multi-sensor fault detection strategy for axial piston pump using the Walsh transform method
+22,diagnosis,semiformal,"ST/K,HD,DE",PP,\cite{siano2018diagnostic},ANN.,gear pump,,experimental,vibration data,Diagnostic method by using vibration analysis for pump fault detection
+23,diagnosis,informal,ST/K,FE,\cite{akpudo2020intelligent},"SVM.,BPNN,RF",Solenoid Pumps,"precision,recall,f1 score",vibration, data with variation of temperature,"Intelligent Solenoid Pump Fault Detection based on MFCC Features, LLE and SVM*"
+24,diagnosis,semiformal,"DE,HD",FE,"irfan2021novel,voltage and current amplitude","SVM,KNN,XGB.",centrifugal pump,accuracy,experimental,voltage and current signals,"A Novel Feature Extraction and Fault Detection Technique for
+the Intelligent Fault Identification of Water Pump Bearings"
+25,diagnosis,informal,"ST/K,DE","PP,FE","\cite{indriawati2021discriminant},time, frequency and WPT features",KNN.,centrifugal pump,"precision, error rate,recall",real-time,"vibration signal and current signal""","Discriminant Feature Extraction of Motor Current
+Signal Analysis and Vibration For Centrifugal Pump
+Fault Detection"
+26,descriptive,semiformal,"ST/K,DE,HD","PP,RZ",\cite{liang2020sparse},"SAE., PCA",centrifugal pump,"ROC,AUC",Real-time,"flow,pressure,speed","A Sparse Autoencoder-Based Unsupervised Scheme
+for Pump Fault Detection and Isolation"
+27,descriptive,informal,"DE,HD",FE,uhlmann2018cluster,Kmeans,machine tool,,Real-time,"3 sensors (temperature, oxygen percentage withinthe process chamber, process chamber pressure)""",Cluster identification of sensor data for predictive maintenance in a Selective Laser Melting machine tool
+28,predictive,informal,ST/K,PP,binding2019machine,"LR,RF.,EGBT",printer ink unit failure,"Cross entropy, AUC,ROC,TP,FP,PRC",Real-time,sensor,"Machine Learning Predictive Maintenance on Data
+in the Wild"
+29,diagnostic,semiformal,"ST/K,HD","PP,FE,RZ",\cite{bekar2020intelligent},Kmeans,engine spindle failure,,"real-time	",,"An intelligent approach for data
+pre-processing and analysis in
+predictive maintenance with an(indirectly 4 type analytics, formal semi formal def,crispdm,dk)
+industrial case study"
+30,predictive,informal,"ST/K,HD",PP,kanawaday2017machine,ARIMA,slitting machine,accuracy,Real-time,sensor data,Machine Learning for Predictive Maintenance of Industrial Machines using IoT Sensor Data
+31,diagnosis,informal,"HD,ST/K","PP,FE",\cite{chazhoor2020predictive},"RF,LR.,MLP,DT,AdaBoost",SECOM dataset,"accuracy,ROC",experimental,sensor data,"Predictive Maintenance using Machine Learning Based Classification
+Models"
+32,predictive,formal,"ST/K,HD","PP,HS",malhotra2016multi,LSTM-ED.,Turbofan Engine (C-MAPSS),"MAE,MSE,Accuracy,Timeliness Score",experimental,sensor,"Multi-Sensor Prognostics using an Unsupervised Health
+Index based on LSTM Encoder-Decoder"
+32,predictive,informal,"ST/K,HD","PP,HS",malhotra2016multi,LSTM-ED.,milling machine,"MAE,MSE,Accuracy,Timeliness Score",experimental,sensor,"Multi-Sensor Prognostics using an Unsupervised Health
+Index based on LSTM Encoder-Decoder"
+33,predictive,formal,"ST/K,HD",PP,zheng2017long,"LSTM., MLP,SVR,RVR,CNN",C-MAPSS Data Set,"RMSE,Scoring function",experimental,sensor data,"Long Short-Term Memory Network for Remaining
+Useful Life Estimation"
+33,predictive,informal,"ST/K,HD",PP,zheng2017long,"LSTM., MLP,SVR,RVR,CNN","PHM08 Challenge,Data Set and Milling Data Set","RMSE,Scoring function",experimental,sensor data,"Long Short-Term Memory Network for Remaining
+Useful Life Estimation"
+34,prescriptive,formal,"SR,PR,LR","PP,DM",zhao2019semi,HMM-POMDP,C-MAPSS Data Set,accuracy,experimental,sensor data,"Semi-supervised Constrained Hidden Markov Model Using Multiple
+Sensors for Remaining Useful Life Prediction and Optimal
+Predictive Maintenance"
+35,predictive,formal,"SR,HD",PP,\cite{yoon2017semi},"GRU.,LSTM",C-MAPSS Turbofan Engine Dataset,"MAE,MSE,Score,R2",experimental,sensor,"Semi-supervised Learning with Deep Generative Models
+for Asset Failure Prediction"
+36,diagnosis,informal,"ST/K,DE","PP,HS","liu2016rolling,time and frequency domain","EMD-TEO,SAE-STFT.,SAE",rolling bear(test rig),Accuracy,"experimental	sensor",,"Rolling Bearing Fault Diagnosis Based on STFT-Deep
+Learning and Sound Signals"
+37,diagnosis,informal,"ST/K,DE,HD","PP,FE,HS","serradilla2021adaptable,statistical feature","ELM,OC-SVM,2D-CNN-AE.",press machine,"F1,precision,recall",experimental,"speed sensor, force sensor, position sensor,power consumption sensor","Adaptable and Explainable Predictive Maintenance:
+Semi-Supervised Deep Learning for Anomaly Detection and
+Diagnosis in Press Machine Data"
+38,predictive,informal,"ST/K,HD","PP,FE,HS,CS",\cite{serradilla2022methodology},"SVR,RF,XGBoost,KNN,gaussian NB, LDA","bushing testbed,press machine of the production line","RMSE,MAE",,sensor data,"Methodology for data-driven predictive maintenance models design, development and
+implementation on manufacturing guided by
+domain knowledge"
+39,diagnosis,semiformal,"ST/K,HD",PP,buabeng2021novel,"CLUST-SMOTE-GWO-MLP.,CLUST-GWO-MLP",Hydraulic system dataset,"Accuracy, sensitivity,F score,Error, precision,MCC,GM, Error",Experimental,"sensors(pressure,temperature, volume flow,motor power,vibration,cooling efficiency,cooling power)","A novel hybrid predictive maintenance model based on clustering,
+smote and multi?layer perceptron neural network optimised with grey
+wolf algorithm"
+40,predictive,informal,"ST/K,HD,DE","PP,FE,HS","kabir2018data,statistical feature",RUSBoost.,transformers,MITN (match in top N-> ranked by likelihood),real-time,"transformer loading data				","Data Driven Predictive Maintenance of
+Distribution Transformers"
+42,diagnosis,informal,"ST/K,HD","PP,FE,DM",uhlmann2018cluster,Kmeans,SLM machine,,real time,raw sensor data,Cluster identification of sensor data for predictive maintenance in a Selective Laser Melting machine tool
+43,diagnosis,semiformal,"DE,HD","PP,FE",jiang2021hybrid,"SVM,ANN,ELM,IMDE-CEEMDAN.",rolling bearing,,experimental,accelerometer data,A Hybrid Fault Diagnosis Method for Rolling Bearing with Improved Multiscale Dispersion Entropy-based State Pre-detection and Feature Fusion
+44,descriptive,informal,"ST/K,HD,DE",PP,wen2019novel,-1,rolling bearing,,experimental,vibration data from sensor,"A Novel Rolling Bearing Fault Detection Method based on Wavelet
+Transform and Empirical Mode Decomposition"
+45,predictive,informal,"ST/K,HD","PP,FE,HS",soualhi2014bearing,"SVM.,SVR.",rolling bearing,,experimental,platform PRONOSTIA vibration data from sensor,"Bearing Health Monitoring Based on Hilbert–Huang
+Transform, Support Vector Machine, and Regression"
+46,diagnosis,informal,HD,"CS,HS",\cite{shao2018novel},"BPNN, SVM, RF.,Boosting,EDAEs.",bearing,"accuracy, precision, recall,f-measure",experimental,(Case Western Reserve University Lab)vibration data from sensor,"A novel method for intelligent fault diagnosis of rolling bearings
+using ensemble deep auto-encoders"
+47,predictive,informal,"HD,ST/K,DE","PP,HS","\cite{zhao2017machine},time and frequency domain features","SVM,KNN,SAE-DNN,MLP","CNC machine operation condition, gear and bearing fault,bearing data from Case Western Reserve University (CWRU)","RMSE,MAE","real time,experimental 3rd",force and vibration from accelerometer,"Machine Health Monitoring Using Local
+Feature-Based Gated Recurrent Unit Networks"
+48,diagnosis,semiformal,"HD,DE","HP,CS",\cite{shao2017novel},"BP,SVM,SAE",gearbox operation condition data,"Accuracy,MAE",vibration from accelerometer,,"A novel deep autoencoder feature learning method for rotating
+machinery fault diagnosis"
+49,diagnosis,informal,"HD,ST/K",PP,hosseinpoor2020virtual,-1,,,experimental,vibration data ,"Virtual Sensors for Fault Diagnosis: A Case of
+Induction Motor Broken Rotor Bar"
+50,diagnosis,informal,"HD,ST/K",PP,ali2019machine,"SVM, KNN, ensemble",motors,"	accuracy,true positive,false positive,roc",experimetal,currents and vibration signals ,"Machine Learning-Based Fault Diagnosis for Singleand
+Multi-Faults in Induction Motors Using
+Measured Stator Currents and Vibration Signals"
+51,diagnosis,informal,"HD,ST/K","PP,HS",zou2022intelligent,"GWO-SVM.,SVM,BPNN",linear(incandescent lamps)and nonlinear(microwave ovens) electric appliances,accuracy,experimental,current signals,"Intelligent Electrical Fault Detection and
+Recognition Based on Gray Wolf Optimization and
+Support Vector Machine"
+52,diagnosis,informal,"ST/K,HD","PP,HS","yu2022motor,time domain and wpt features","SVM,CS-SVM,FA-SVM,ABC-SVM,GWO-SVM,TLGWO-SVM.",motor vibration acceleration data fromWestern Reserve University,"accuracy, standard deviation",experimental,vibration data,"Motor fault diagnosis based on teaching and
+learning gray wolf algorithm optimized support
+vector machine"
+53,predictive,formal,"SR,ST/K,HD","PP,HS",\cite{shcherbakov2022hybrid},"CNN-LSTM,MLP",NASA C-MAPSS dataset," RMSE,MAE,MAPE,accuracy",experimental,sensor                                                                                                                                                                                                                                                                                                                                                                     ,"A hybrid deep learning framework for intelligent predictive
+maintenance of Cyber-Physical Systems"
+54,predictive,informal,"ST/K,HD","PP,HS",nasser2022hybrid,"GBDT,RNN,SVM,LSTM,LSTM-AE,CNN-LSTM",historical machine data,"	precision,recall,f-score",experimental,sensor,"A hybrid of convolutional neural
+network and long short-term
+memory network approach to
+predictive maintenance(pmjn.pdf)"
+55,predictive,informal,"ST/K,HD","PP,FE",sui2019prediction,SVR.,Bearing motor ( experimental platform PRONOSTIA),MSE,Real-time,acceleration sensor and temperature sensor,"Prediction of Bearing Remaining Useful Life based
+on Mutual Information and Support Vector
+Regression Model"
+56,diagnosis,informal,"HD,DE","FE,HS","zhu2018fault,frequency domain feature","SVM,GM-SVM,QGM-SVM.",Centrifugal fan,Accuracy,Experimental,vibration data,"Fault Diagnosis of Rotation Machinery Based
+on Support Vector Machine Optimized by
+Quantum Genetic Algorithm"
+57,diagnostic,informal,HD,"FE,HS",li2017intelligent,ANN.,machine center,,Experimental,sensor data,"Intelligent predictive maintenance for fault diagnosis
+and prognosis in machine centers: Industry 4.0 scenario"
+58,predictive,informal,"	HD","	HS",nikfar2022two,"SVM.,BPNN,RF",industrial motor,Accuracy,Experimental,ibration from accelerometer sensor,A Two-Phase Machine Learning Approach for Predictive Maintenance of Low Voltage Industrial Motors
+59,descriptive,informal,"ST/K,HD","PP,FE, CS, HS",jalali2020intelligent,"SVM,GA",Ball bearing,accuracy,Experimental,vibration data,"Intelligent Condition Monitoring of Ball Bearings Faults
+by Combination of Genetic Algorithm and Support Vector Machines"

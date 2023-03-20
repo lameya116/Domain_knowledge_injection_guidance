@@ -1,0 +1,26 @@
+ARIMA;Autoregressive integrated moving average;https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average
+ANN;artificial neural network;https://en.wikipedia.org/wiki/Artificial_neural_network
+Bi-GRU;Bidirectional Gated Recurrent Unit;https://medium.com/analytics-vidhya/bi-directional-rnn-basics-of-lstm-and-gru-e114aa4779bb
+BPNN;Back Propagation Neural Network;https://www.sciencedirect.com/topics/computer-science/back-propagation-neural-network
+CNN;Convolutional Neural Network;https://en.wikipedia.org/wiki/Convolutional_neural_network
+DPCA;Distributed Principal Component Analysis;https://dl.acm.org/doi/10.1145/3428363.3428369
+DT;Decision Tree;https://en.wikipedia.org/wiki/Decision_tree
+EDAEs;Ensemble Deep Autoencoders;https://www.sciencedirect.com/science/article/pii/S0888327017305034
+EGBT;Extreme Gradient Boosted Tree;https://ieeexplore.ieee.org/document/8767312
+GA;Genetic Algorithm;https://en.wikipedia.org/wiki/Genetic_algorithm
+GBDT;Gradient-Boosted Decision Trees;https://en.wikipedia.org/wiki/Gradient_boosting
+GWO-SVM;Grey Wolf Optimization Support Vector Machine;https://iopscience.iop.org/article/10.1088/1742-6596/2232/1/012017
+HMM;Hidden Markov model;https://en.wikipedia.org/wiki/Hidden_Markov_model
+KNN;K nearest algorithm;https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm
+KPCA;Kernel Principal Component Analysis;https://en.wikipedia.org/wiki/Kernel_principal_component_analysis
+Kmeans;K means algorithm;https://en.wikipedia.org/wiki/K-means_clustering
+LR;Logistic Regression;https://en.wikipedia.org/wiki/Logistic_regression
+LSTM;Long Short-term Memory;https://en.wikipedia.org/wiki/Long_short-term_memory
+MLP;Multi Layer Perception;https://en.wikipedia.org/wiki/Multilayer_perceptron
+POMDP;Partially Observable Markov Decision Process;https://en.wikipedia.org/wiki/Partially_observable_Markov_decision_process
+RF;Random Forest;https://en.wikipedia.org/wiki/Random_forest
+RNN;Recurrent Neural Network;https://en.wikipedia.org/wiki/Recurrent_neural_network
+RVR;Relevance Vector Regression;https://en.wikipedia.org/wiki/Relevance_vector_machine
+SAE;Sparse Autoencoder;https://www.mdpi.com/2076-3417/10/19/6789
+SVM;Support Vector Machines;https://en.wikipedia.org/wiki/Support_vector_machine
+TSAK-SVM;Time Series Alignment Kernel Support Vector Machine;https://ieeexplore.ieee.org/document/9253527
